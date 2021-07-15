@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dantenet</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>-(void)get&lt;#function#&gt;{
+    NSMutableDictionary *par=[NSMutableDictionary new];
+    [Public postWithPath:&lt;#URL#&gt; parameters:par success:^(NSDictionary *res) {
+        BasicModel *n=[BasicModel mj_objectWithKeyValues:res];
+        if(n.code==0){
+            &lt;#code#&gt;
+        }else{
+            PublicMethods.showNotice(n.msg,1.2);
+        }
+    } err:^(NSDictionary *res) {
+        PublicMethods.showNotice(@"网络请求错误!",1.2);
+    }];
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>043DB802-DCD9-4555-84D7-777CB75415E9</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>快捷创建网络请求</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

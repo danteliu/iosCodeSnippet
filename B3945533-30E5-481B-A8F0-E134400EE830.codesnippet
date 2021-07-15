@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dantetabdelegate</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    return 1;
+}
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return &lt;#num#&gt;;
+}
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    NSString *cellid=@"&lt;#id#&gt;";
+    &lt;#cellClass#&gt; *cell=[tableView dequeueReusableCellWithIdentifier:cellid];
+    if (cell==nil) {
+        cell=[[&lt;#cellClass#&gt; alloc] initWithStyle:(UITableViewCellStyleDefault) reuseIdentifier:cellid];
+    }
+    cell.bgColor(Random);
+    cell.textLabel.str(@"indexPath:%@",Str(indexPath.row));
+    return cell;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B3945533-30E5-481B-A8F0-E134400EE830</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>初始化tabview代理</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

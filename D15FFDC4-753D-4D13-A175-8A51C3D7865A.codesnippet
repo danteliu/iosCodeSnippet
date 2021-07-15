@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>danteadd02</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    UILabel *name;
+    name=[UICreate NewWithLab:^(UILabel * _Nonnull obj) {
+        obj.addTo(&lt;#self#&gt;).color(lRandom).bgColor(lRandom).centerAlignment
+//        .borderRadius(Radius8).lines(0).lineGap(3).border(0.5,lRandom)
+        .fnt([UIFont boldSystemFontOfSize: &lt;#Ft11#&gt;]).str(&lt;#@"默认"#&gt;);
+        [obj mas_makeConstraints:^(MASConstraintMaker *make) {
+            
+        }];
+    }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D15FFDC4-753D-4D13-A175-8A51C3D7865A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>02-UICreate-Lable</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

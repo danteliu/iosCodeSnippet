@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dantetime01</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>dispatch_source_t timer;
+dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+timer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, queue);
+    dispatch_source_set_timer(timer, dispatch_time(DISPATCH_TIME_NOW, 1 * NSEC_PER_SEC), 1 * NSEC_PER_SEC, 0);
+dispatch_source_set_event_handler(timer, ^{
+//        second=second-1;
+//        dispatch_async(dispatch_get_main_queue(), ^{
+//            bLab.str(@"%@",Str(second));
+//            if (second==0) {
+//                dispatch_cancel(timer);
+//                timer = nil;
+//            }
+//
+//        });
+    NSLog(@"%@", [[RBDateTime now] localizedStringWithFormat:@"yyyy-MM-dd HH:mm:ss"]);
+});
+dispatch_resume(timer);
+
+-(void)stopTime{
+    if (timer!=nil) {
+        dispatch_cancel(timer);
+        timer = nil;
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>3F42419B-C615-4529-8AB7-5F90DA4E973B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>创建GCD定时器(异步)</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

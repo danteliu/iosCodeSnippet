@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dantebuju01</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>//批量布局
+[views enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+    UIView *one=(UIView*)obj;
+    UIView *beforeView;
+    if (idx!=0) {
+        beforeView=views[idx-1];
+    }
+    [one mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.offset(margin12);
+        make.right.offset(-margin12);
+        make.height.mas_equalTo(PxToHeight(110));
+        if (idx==0) {
+            make.top.equalTo(topImg.mas_bottom).offset(PxToHeight(-44));
+        }else if (idx==views.count-1){
+            make.top.equalTo(beforeView.mas_bottom).offset(margin8);
+            make.bottom.offset(-margin20);
+        }else{
+            make.top.equalTo(beforeView.mas_bottom).offset(margin8);
+        }
+    }];
+}];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C9E7A231-01EB-4301-84D8-0E382370C6A6</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>手动批量布局</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

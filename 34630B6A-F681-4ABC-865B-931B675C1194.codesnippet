@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>danteex</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>@interface &lt;#class name#&gt; : &lt;#NSObject#&gt;
+//@property(nonatomic,copy) NSString *
+//@property(nonatomic,copy) NSArray *
+//@property(nonatomic,assign) NSInteger
+//@property(nonatomic,assign) BOOL
+
+@end
+@implementation &lt;#class#&gt;
+//+(NSDictionary *)mj_replacedKeyFromPropertyName{
+//    return @{
+//        @"ID":@"id"
+//    };
+//}
+@end</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>34630B6A-F681-4ABC-865B-931B675C1194</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>快捷创建一个类</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
