@@ -3,24 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dantelog</string>
+	<string>dantelsfunc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSLog(@"%@",&lt;#...#&gt;);</string>
+	<string>-(instancetype(^)(NSDictionary *res))addModel;
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C1EB57EA-65E9-436D-8E27-1697F7155CC0</string>
+	<string>4AEC7723-3F89-48D3-BFE1-3C83076840EC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>快捷丨打印日志</string>
+	<string>创建链式方法</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
