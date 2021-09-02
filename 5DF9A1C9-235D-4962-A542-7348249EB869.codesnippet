@@ -3,25 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dantelsfunc</string>
+	<string>dantezs</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>-(instancetype(^)(NSDictionary *res))addModel;
-</string>
+	<string>
+/// &lt;#note#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4AEC7723-3F89-48D3-BFE1-3C83076840EC</string>
+	<string>5DF9A1C9-235D-4962-A542-7348249EB869</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>创建链式方法</string>
+	<string>swift 注释</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

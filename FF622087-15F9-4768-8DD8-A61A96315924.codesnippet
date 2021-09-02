@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>make.top.bottom.offset(0);//上下</string>
+	<string>make.top.bottom.offset(0);</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>FF622087-15F9-4768-8DD8-A61A96315924</string>
 	<key>IDECodeSnippetLanguage</key>

@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>make.edges.mas_equalTo(Insets(0));</string>
+	<string>make.edges.mas_equalTo(UIEdgeInsetsZero);</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>BCEB4987-2B85-48DF-9950-3A35BCCF2141</string>
 	<key>IDECodeSnippetLanguage</key>

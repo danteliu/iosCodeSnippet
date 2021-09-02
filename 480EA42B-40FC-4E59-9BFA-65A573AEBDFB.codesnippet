@@ -9,10 +9,12 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>return ^(void){
+	<string>-(instancetype(^)(NSDictionary *res))addModel{
+    return ^(NSDictionary *res){
         
         return self;
-    };</string>
+    };
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>480EA42B-40FC-4E59-9BFA-65A573AEBDFB</string>
 	<key>IDECodeSnippetLanguage</key>
