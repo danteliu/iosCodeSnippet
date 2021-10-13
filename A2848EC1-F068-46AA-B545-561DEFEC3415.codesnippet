@@ -9,19 +9,19 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) void (^&lt;#name#&gt;)(&lt;#par#&gt;);
+	<string>@property (nonatomic, strong) void (^&lt;#blockName#&gt;)(&lt;#void#&gt;);/**&lt;  &lt;#属性注释#&gt; */
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>92936CEA-2F07-44C8-A27C-AFCBE24796B3</string>
+	<string>A2848EC1-F068-46AA-B545-561DEFEC3415</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>创建block属性</string>
+	<string>创建block属性-oc</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
