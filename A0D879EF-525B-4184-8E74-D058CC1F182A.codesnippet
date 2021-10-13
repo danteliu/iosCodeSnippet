@@ -3,29 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>danteex</string>
+	<string>lmasupdate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>typealias one = &lt;#分类名#&gt;
-extension one{
-    
-}</string>
+	<string>[&lt;#View#&gt; mas_updateConstraints:^(MASConstraintMaker *make) {
+        
+}];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5CBAA275-AFBE-41FF-BC5B-066035B788CF</string>
+	<string>A0D879EF-525B-4184-8E74-D058CC1F182A</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>创建分类</string>
+	<string>更新布局</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
