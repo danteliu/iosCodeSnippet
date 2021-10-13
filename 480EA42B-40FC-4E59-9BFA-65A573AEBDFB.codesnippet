@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dantels</string>
+	<string>danteprols</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>-(instancetype(^)(NSDictionary *res))addModel{
-    return ^(NSDictionary *res){
+	<string>-(instancetype(^)(&lt;#void#&gt;)&lt;#name#&gt;{/**&lt;  &lt;#属性注释#&gt; */
+    return ^(&lt;#void#&gt;){
         
         return self;
     };
@@ -22,7 +22,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>创建一个链式规则</string>
+	<string>创建一个链式属性</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
