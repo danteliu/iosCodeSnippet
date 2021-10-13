@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        make.size.mas_equalTo(Img(&lt;#img name#&gt;).size);
+	<string>make.size.mas_equalTo(Img(&lt;#img name#&gt;).size);
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>CE761712-019A-4493-AA13-70F047576FE7</string>
