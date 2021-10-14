@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>danteprostr</string>
+	<string>danteprodicm</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) NSString * &lt;#name#&gt;;/**&lt;  &lt;#属性注释#&gt; */</string>
+	<string>@property (nonatomic, strong) NSMutableDictionary * &lt;#name#&gt;;/**&lt;  &lt;#属性注释#&gt; */</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>92FF7397-6D48-402D-907C-E68C43DA01FD</string>
+	<string>88F1A032-F2D5-4E75-8A2B-CF0CB34CE315</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>创建一个字符串</string>
+	<string>创建可变字典</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
