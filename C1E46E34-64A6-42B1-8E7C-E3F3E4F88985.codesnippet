@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dantegcdgroup</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>dispatch_group_t group = dispatch_group_create();
+dispatch_group_enter(group);//备注:dispatch_group_enter 与 dispatch_group_leave成对出现
+dispatch_group_leave(group);
+&lt;#//code#&gt;
+dispatch_group_notify(group, dispatch_get_main_queue(), ^{
+    &lt;#endcode#&gt;
+});</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C1E46E34-64A6-42B1-8E7C-E3F3E4F88985</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>创建gcd组</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
