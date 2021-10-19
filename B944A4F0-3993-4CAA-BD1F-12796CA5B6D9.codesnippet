@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>danteuitablecell</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>typealias GZHSelectContactForCustomerViewdelegateSetting = GZHSelectContactForCustomerView
+extension GZHSelectContactForCustomerViewdelegateSetting{
+    func numberOfSections(in tableView: UITableView) -&gt; Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
+        return 10
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print(indexPath)
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {
+        let sid = "sid"
+        var cell = tableView.dequeueReusableCell(withIdentifier: sid)
+        if cell == nil {
+            cell = UITableViewCell(style: .default, reuseIdentifier: sid)
+            cell?.selectionStyle = .none
+        }
+        cell?.textLabel?.text="\(indexPath)"
+
+        return cell ?? UITableViewCell()
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B944A4F0-3993-4CAA-BD1F-12796CA5B6D9</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>创建cell代理</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

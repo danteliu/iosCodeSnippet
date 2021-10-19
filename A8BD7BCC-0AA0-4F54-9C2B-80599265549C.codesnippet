@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>danteproarrm</string>
+	<string>dantefundationproBlock</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) NSMutableArray * &lt;#name#&gt;;/**&lt;  &lt;#属性注释#&gt; */</string>
+	<string>(void (^)(&lt;#void#&gt;))&lt;#proName#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1DB59524-B6B4-418C-98A4-D62F09D6F734</string>
+	<string>A8BD7BCC-0AA0-4F54-9C2B-80599265549C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>创建可变数组</string>
+	<string>创建函数的block参数</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

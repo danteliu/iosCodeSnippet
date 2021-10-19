@@ -3,24 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>danteproarrm</string>
+	<string>danteprobibk</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) NSMutableArray * &lt;#name#&gt;;/**&lt;  &lt;#属性注释#&gt; */</string>
+	<string>var &lt;#name#&gt; : ((String) -&gt; Void)?
+//    if let block = self.&lt;#name#&gt; {
+//        block("你好啊")
+//    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1DB59524-B6B4-418C-98A4-D62F09D6F734</string>
+	<string>449F7151-F0D0-4F08-BB6E-D9E574915C53</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>创建可变数组</string>
+	<string>创建一个闭包属性</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
