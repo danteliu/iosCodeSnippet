@@ -9,7 +9,8 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@WeakObj(&lt;#obj#&gt;);</string>
+	<string>__weak typeof(&lt;#obj#&gt;) weakSelf = &lt;#obj#&gt;;
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>70F58249-0D54-48CB-9AA0-6D4E6B5832B5</string>
 	<key>IDECodeSnippetLanguage</key>
