@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) void (^&lt;#blockName#&gt;)(&lt;#void#&gt;);/**&lt;  &lt;#属性注释#&gt; */
+	<string>@property (nonatomic, copy) void (^&lt;#blockName#&gt;)(&lt;#void#&gt;);/**&lt;  &lt;#属性注释#&gt; */
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>A2848EC1-F068-46AA-B545-561DEFEC3415</string>
