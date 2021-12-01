@@ -3,35 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dantevcinit</string>
+	<string>dantemark</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)viewDidLoad {
-    [super viewDidLoad];
-    [self InitializationNavigation];
-    [self InitializationData];
-    [self InitializeView];
-}
--(void)InitializationNavigation{
-
-}
--(void)InitializationData{
-    
-}
--(void)InitializeView{
-    
-}</string>
+	<string>#pragma mark - &lt;#code#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A3FFF55C-FABA-4078-9C6C-07C9AF1494CB</string>
+	<string>4918A010-0D4E-4633-84E6-0B29D350156D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>视图的初始化配置</string>
+	<string>创建mark标记</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
