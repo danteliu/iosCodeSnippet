@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dantegstr</string>
+	<string>dantestrGlobal</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>extern NSString * const &lt;#name#&gt;;
+	<string>extern NSString * const &lt;#name#&gt;;/**&lt; */
 NSString * const &lt;#name#&gt;=@"&lt;#name#&gt;";</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>CF609CEF-0EFE-450B-8191-465A911655EA</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>创建通用字符(nsstring)</string>
+	<string>创建全局字符串(nsstring)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
