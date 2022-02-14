@@ -3,33 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dantefunclazy</string>
+	<string>danteaddslowanimations</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>-(UIView *)&lt;#name#&gt;{
-    if (!_&lt;#name#&gt;) {
-        _&lt;#name#&gt;=({
-            &lt;#class#&gt; *obj=[[&lt;#class#&gt; alloc] init];
-            &lt;#code#&gt;
-            obj;
-        });
-    }
-    return _&lt;#name#&gt;;
-}</string>
+	<string>self.window.layer.speed = .1f;//didFinishLaunchingWithOptions中添加开启slow animations</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D6EADFF6-F0B7-487C-A857-2F4C31A80A8B</string>
+	<string>17854C0B-12EB-4EF1-88C1-2425655EEEC6</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>创建懒加载方法</string>
+	<string>开启Slow animations</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
