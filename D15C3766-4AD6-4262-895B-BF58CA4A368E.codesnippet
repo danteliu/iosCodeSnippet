@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>danteaddslowanimations</string>
+	<string>danteproModel</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>self.window.layer.speed = .1f;//didFinishLaunchingWithOptions中添加开启slow animations</string>
+	<string>@property (nonatomic, readonly, copy) &lt;#Class#&gt; (^&lt;#Name#&gt;)(NSDictionary *res);/**&lt;  &lt;#参数说明#&gt; */</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>17854C0B-12EB-4EF1-88C1-2425655EEEC6</string>
+	<string>D15C3766-4AD6-4262-895B-BF58CA4A368E</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>开启Slow animations</string>
+	<string>创建参数Model(和链式方式一起使用)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (instancetype (^)(&lt;#void#&gt;))&lt;#name#&gt; {/**&lt;  &lt;#属性注释#&gt; */
+	<string>- (&lt;#Class#&gt; (^)(&lt;#void#&gt;))&lt;#name#&gt; {/**&lt;  &lt;#属性注释#&gt; */
     return ^(&lt;#void#&gt;){
         
         return self;
