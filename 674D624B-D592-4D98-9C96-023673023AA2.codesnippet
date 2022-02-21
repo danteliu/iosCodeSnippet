@@ -9,13 +9,21 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>   {
-      "code" : 0,
-      "data" : {},
-      "success" : "@boolean",
-      "msg" : "成功",
-      "fail" : "@boolean"
-    }</string>
+	<string>&lt;#obj#&gt;.mj_header =[MJRefreshNormalHeader headerWithRefreshingBlock:^{
+    page=1;
+    &lt;#code#&gt;
+}];
+MJRefreshAutoNormalFooter *footer=[MJRefreshAutoNormalFooter footerWithRefreshingBlock:^{
+    page=page+1;
+    &lt;#code#&gt;
+}];
+footer.automaticallyRefresh=NO;
+&lt;#obj#&gt;.mj_footer=footer;
+[&lt;#obj#&gt;.mj_header beginRefreshing];
+//tableView.mj_footer.hidden=datas.count==0?YES:NO;
+//[&lt;#obj#&gt;.mj_footer endRefreshingWithNoMoreData];
+
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>674D624B-D592-4D98-9C96-023673023AA2</string>
 	<key>IDECodeSnippetLanguage</key>
