@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>make.size.mas_equalTo(WH(&lt;#margin8#&gt;, &lt;#margin8#&gt;));</string>
+	<string>make.size.mas_equalTo(CGSizeMake(&lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;));</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>59D827C2-F55E-4822-B642-8C928E079AC9</string>
 	<key>IDECodeSnippetLanguage</key>
