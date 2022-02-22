@@ -3,32 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>danteadd02</string>
+	<string>danteprobeizhu</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    UILabel *name;
-    name=[UICreate NewWithLab:^(UILabel * _Nonnull obj) {
-        obj.addTo(&lt;#self#&gt;).color(lRandom).bgColor(lRandom).centerAlignment
-//        .borderRadius(Radius8).lines(0).lineGap(3).border(0.5,lRandom)
-        .fnt([UIFont boldSystemFontOfSize: &lt;#Ft11#&gt;]).str(&lt;#@"默认"#&gt;);
-        [obj mas_makeConstraints:^(MASConstraintMaker *make) {
-            
-        }];
-    }];</string>
+	<string>#pragma mark -
+#pragma mark &lt;#备注#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D15FFDC4-753D-4D13-A175-8A51C3D7865A</string>
+	<string>F4A2C429-FBED-445D-AF54-B5554FA36C00</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>02-UICreate-Lable</string>
+	<string>添加备注</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
