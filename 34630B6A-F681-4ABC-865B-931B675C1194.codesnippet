@@ -10,8 +10,8 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>@interface &lt;#class name#&gt; : &lt;#NSObject#&gt;
-//@property(nonatomic,copy) NSString *
-//@property(nonatomic,copy) NSArray *
+//@property(nonatomic,strong) NSString *
+//@property(nonatomic,strong) NSArray *
 //@property(nonatomic,assign) NSInteger
 //@property(nonatomic,assign) BOOL
 
