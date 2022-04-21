@@ -3,26 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dantesetupui</string>
+	<string>danteproblocktypedef</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>-(void)setupUI {/**&lt;  设置UI */
-    
-}</string>
+	<string>typedef void (^&lt;#name#&gt;)(void);
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>82D52B92-AA0A-4141-8919-A5D1DCB92C2A</string>
+	<string>BC7EB5C0-0730-46F6-A87A-87655AFEF11F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Code Snippet</string>
+	<string>typedef block属性</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
