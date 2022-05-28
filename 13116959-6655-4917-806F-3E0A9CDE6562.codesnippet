@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>make.edges.mas_equalTo(            make.edges.mas_equalTo(Insets(&lt;#CGFloat top#&gt;, &lt;#CGFloat left#&gt;, &lt;#CGFloat bottom#&gt;, &lt;#CGFloat right#&gt;));
+	<string>make.edges.mas_equalTo(Insets(&lt;#CGFloat top#&gt;, &lt;#CGFloat left#&gt;, &lt;#CGFloat bottom#&gt;, &lt;#CGFloat right#&gt;)
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>13116959-6655-4917-806F-3E0A9CDE6562</string>
