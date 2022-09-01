@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dantetodo</string>
+	<string>dantepromarktag</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#warning TODO</string>
+	<string>#pragma mark dante do rQc%AsFsLxKaT3eH</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D4953766-C8F4-4E18-87DA-198D780DB42C</string>
+	<string>56487C32-2245-4D13-AE3B-08996258CB47</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>正在做的内容</string>
+	<string>todo list tag</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
