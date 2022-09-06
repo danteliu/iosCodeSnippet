@@ -3,24 +3,39 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>danteproblock03</string>
+	<string>danteinitFrame</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, readonly, copy) &lt;#void#&gt; (^&lt;#Name#&gt;)(NSDictionary *res);/**&lt;  &lt;#参数说明#&gt; */</string>
+	<string>- (instancetype)initWithFrame:(CGRect)frame;
+- (instancetype)initWithFrame:(CGRect)frame {
+    self = [super initWithFrame:frame];
+
+    if (self) {
+        [self setupUI];
+    }
+
+    return self;
+}
+
+- (void)setupUI {
+}
+
+#pragma mark -
+#pragma mark 懒加载</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D15C3766-4AD6-4262-895B-BF58CA4A368E</string>
+	<string>33BDA4D2-9B29-40D7-A46F-6A4399D0D887</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>03创建链式Blcok</string>
+	<string>创建初始化Frame</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
