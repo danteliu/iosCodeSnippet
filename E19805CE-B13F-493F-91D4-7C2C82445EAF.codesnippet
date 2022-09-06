@@ -3,28 +3,34 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>danteif01</string>
+	<string>danteinit03</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#if &lt;#condition#&gt;
-&lt;#code#&gt;
-#else
-&lt;#code#&gt;
-#endif</string>
+	<string>- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(nullable NSString *)reuseIdentifier;
+
+- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(nullable NSString *)reuseIdentifier
+{
+    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
+    if(self) {
+        [self setSelectionStyle:(UITableViewCellSelectionStyleNone)];
+    }
+    return self;
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>84325C57-F121-4A51-96E0-BD4EAC50CCE9</string>
+	<string>E19805CE-B13F-493F-91D4-7C2C82445EAF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string> 01 添加条件编译</string>
+	<string>03 init tableCell Class</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
