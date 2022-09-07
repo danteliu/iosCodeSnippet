@@ -9,17 +9,35 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(nullable NSString *)reuseIdentifier;
+	<string>@property (nonatomic, readonly, copy) void (^ addModel)(NSDictionary *res);/**&lt;  添加模型 */
+- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(nullable NSString *)reuseIdentifier;
+
+- (void (^)(NSDictionary *_Nonnull res))addModel {
+    return ^(NSDictionary *_Nonnull res) {
+    };
+}
 
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(nullable NSString *)reuseIdentifier
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
-    if(self) {
+
+    if (self) {
         [self setSelectionStyle:(UITableViewCellSelectionStyleNone)];
+        self.contentView.backgroundColor = UIColor.whiteColor;
+        [self initDatas];
+        [self setupUI];
     }
+
     return self;
 }
-</string>
+
+- (void)initDatas {/**&lt;  初始化数据 */
+}
+
+- (void)setupUI {/**&lt;  初始化 UI */
+}
+#pragma mark -
+#pragma mark 懒加载</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E19805CE-B13F-493F-91D4-7C2C82445EAF</string>
 	<key>IDECodeSnippetLanguage</key>
