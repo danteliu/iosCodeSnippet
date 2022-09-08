@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dantegcd02</string>
+	<string>danteproui04</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(&lt;#delayInSeconds#&gt; * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-    &lt;#code to be executed after a specified delay#&gt;
-});</string>
+	<string>@property (nonatomic, strong) &lt;#class name#&gt; * &lt;#name#&gt;;/**&lt;  &lt;#属性注释#&gt; */</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F7D44971-56F5-46D4-9D66-0A67BA25850C</string>
+	<string>80919E94-BEBB-447F-895D-325672B403F6</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>02 GCD延时</string>
+	<string>04创建自定义视图</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

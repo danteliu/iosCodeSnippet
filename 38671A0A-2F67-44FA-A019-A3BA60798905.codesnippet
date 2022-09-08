@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dantea</string>
+	<string>danteprostr02</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>.a(&lt;#...#&gt;)</string>
+	<string>[NSString stringWithFormat:@"%@",&lt;#string#&gt;]</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>38671A0A-2F67-44FA-A019-A3BA60798905</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -17,7 +17,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>快捷丨拼接字符串</string>
+	<string>02 快捷丨拼接字符串</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
