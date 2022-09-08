@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>make.bottom.offset(&lt;#margin8#&gt;);</string>
+	<string>make.bottom.offset(&lt;#0#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>510A4020-3551-4E0E-B091-C28B2527E29D</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -17,7 +17,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>01-of</string>
+	<string>01 of</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>make.height.mas_equalTo(&lt;#margin8#&gt;);</string>
+	<string>make.height.mas_equalTo(&lt;#0#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>1A02D052-E872-4441-9C02-F4B031483CC5</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -17,7 +17,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>01-高度</string>
+	<string>01 高度</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

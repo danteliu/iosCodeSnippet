@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lmasbottom03</string>
+	<string>lmastop06</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>make.bottom.left.offset(0);</string>
+	<string>make.top.left.bottom.offset(0);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C919F06C-4B58-4EA1-97BB-84716C3463D5</string>
+	<string>47178240-6E2E-4953-83B8-4C8493ECBEE2</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>03 左下角</string>
+	<string>06 紧挨左边</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

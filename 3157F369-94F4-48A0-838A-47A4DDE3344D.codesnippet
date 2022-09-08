@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>danteviews</string>
+	<string>lmasoa01</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -12,13 +12,13 @@
 	<string>NSMutableArray *views=[NSMutableArray new];
 [views addObject:&lt;#obj#&gt;];
 [views mas_distributeViewsAlongAxis:(MASAxisType&lt;#H or V#&gt;) withFixedSpacing:0 leadSpacing:0 tailSpacing:0];
-NSArray *oneNames=@[];
 [views enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-    &lt;#Class#&gt; *one=(&lt;#Class#&gt;*)obj;
+
 }];
 [views mas_makeConstraints:^(MASConstraintMaker *make) {
     
-}];</string>
+}];
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>3157F369-94F4-48A0-838A-47A4DDE3344D</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -26,7 +26,7 @@ NSArray *oneNames=@[];
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>批量创建视图</string>
+	<string>01 根据数组批量创建视图</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

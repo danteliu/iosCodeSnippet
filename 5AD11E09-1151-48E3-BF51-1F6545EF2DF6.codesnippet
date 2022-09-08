@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>make.bottom.equalTo(&lt;#sup#&gt;).offset(&lt;#margin8#&gt;);
+	<string>make.bottom.equalTo(&lt;#sup#&gt;).offset(&lt;#0#&gt;);
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>5AD11E09-1151-48E3-BF51-1F6545EF2DF6</string>
@@ -18,7 +18,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>02-eql</string>
+	<string>02 eql</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

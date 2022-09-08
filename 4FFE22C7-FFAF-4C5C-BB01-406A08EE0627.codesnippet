@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>make.left.bottom.right.offset(&lt;#margin8#&gt;);</string>
+	<string>make.left.bottom.right.offset(0);</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>4FFE22C7-FFAF-4C5C-BB01-406A08EE0627</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -17,7 +17,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>05-紧贴底部</string>
+	<string>05 紧贴底部</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

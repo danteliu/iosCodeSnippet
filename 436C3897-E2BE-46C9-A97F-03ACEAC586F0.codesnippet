@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>make.bottom.right.offset(0);//右下角</string>
+	<string>make.bottom.right.offset(0);</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>436C3897-E2BE-46C9-A97F-03ACEAC586F0</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -17,7 +17,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>04-右下角</string>
+	<string>04 右下角</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

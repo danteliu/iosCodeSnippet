@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lmasbottom03</string>
+	<string>lmasheight02</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>make.bottom.left.offset(0);</string>
+	<string>make.height.equalTo(&lt;#view#&gt;.mas_&lt;#pro#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C919F06C-4B58-4EA1-97BB-84716C3463D5</string>
+	<string>2E427708-0796-4860-A8F1-A1813D95549E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>03 左下角</string>
+	<string>02 高度等于另一个视图的布局属性</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

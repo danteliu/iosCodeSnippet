@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dantefunc01</string>
+	<string>danteonfunc01</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -11,7 +11,8 @@
 	<key>IDECodeSnippetContents</key>
 	<string>- (&lt;#void#&gt;)&lt;#fundation#&gt; {/**&lt;  &lt;#函数注释#&gt;  */
     
-}</string>
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>81CFB8AD-4F25-4090-830F-8D1094E6A60A</string>
 	<key>IDECodeSnippetLanguage</key>
