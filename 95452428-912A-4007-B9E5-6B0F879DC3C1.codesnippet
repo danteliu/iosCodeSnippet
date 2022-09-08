@@ -3,22 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>danteproop01</string>
+	<string>danteproself02</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, assign) NSInteger &lt;#name#&gt;;/**&lt;  &lt;#属性注释#&gt; */
-</string>
+	<string>__strong __typeof(&lt;#weakSelf#&gt;) strongSelf = &lt;#weakSelf#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>18A0EC44-21DA-4A10-BECE-D17DFD921CA6</string>
+	<string>95452428-912A-4007-B9E5-6B0F879DC3C1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>01 创建一个interger属性</string>
+	<string>02 创建强引用</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

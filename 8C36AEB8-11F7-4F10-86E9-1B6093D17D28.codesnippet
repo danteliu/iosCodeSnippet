@@ -3,22 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>danteproop01</string>
+	<string>danteproenum03</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, assign) NSInteger &lt;#name#&gt;;/**&lt;  &lt;#属性注释#&gt; */
+	<string>typedef NS_OPTIONS(NSUInteger, KLType) {
+    KLTypeRed = 1 &lt;&lt; 0,
+    KLTypeGreen = 1 &lt;&lt; 1,
+    KLTypeOrange = 1 &lt;&lt; 2,
+};
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>18A0EC44-21DA-4A10-BECE-D17DFD921CA6</string>
+	<string>8C36AEB8-11F7-4F10-86E9-1B6093D17D28</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>01 创建一个interger属性</string>
+	<string>03 位移枚举</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,25 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>danteproop01</string>
+	<string>dantelog02</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, assign) NSInteger &lt;#name#&gt;;/**&lt;  &lt;#属性注释#&gt; */
-</string>
+	<string>Log(&lt;#...#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>18A0EC44-21DA-4A10-BECE-D17DFD921CA6</string>
+	<string>4961AEEF-F5AA-4453-BCB8-75B68DFD7F53</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>01 创建一个interger属性</string>
+	<string>02 NerdyUI Log</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
