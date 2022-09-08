@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dantegnuc</string>
+	<string>danteonfunc01</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -21,7 +21,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>GNU C的对C的扩展语法 Xcode采用的Clang编译，Clang作为GCC的替代品，和GCC一样对于GNU C语法完全支持</string>
+	<string>01 GNU C的对C的扩展语法 Xcode采用的Clang编译，Clang作为GCC的替代品，和GCC一样对于GNU C语法完全支持</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
