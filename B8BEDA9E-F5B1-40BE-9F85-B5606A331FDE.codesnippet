@@ -22,10 +22,10 @@
     return self;
 }
 
-- (void)initData {
+- (void)initData {/**&lt;  初始化数据 */
 }
 
-- (void)setupUI {
+- (void)setupUI {/**&lt;  初始化 UI */
 }
 
 #pragma mark -
@@ -41,6 +41,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

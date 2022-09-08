@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>make.left.top.right.offset(&lt;#margin8#&gt;);//紧贴上部</string>
+	<string>make.left.top.right.offset(&lt;#margin8#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>BD0393CA-2AC6-4D74-A283-3B3E2B81796B</string>
 	<key>IDECodeSnippetLanguage</key>

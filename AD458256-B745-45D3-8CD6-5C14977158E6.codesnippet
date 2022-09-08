@@ -3,26 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lmasmake01</string>
+	<string>dantegcd04</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[&lt;#View#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
-            
-}];</string>
+	<string>static dispatch_once_t onceToken;
+dispatch_once(&amp;onceToken, ^{
+    &lt;#code to be executed once#&gt;
+});</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>40AA4E01-22E7-4BAB-99E0-6C28CBC1FE55</string>
+	<string>AD458256-B745-45D3-8CD6-5C14977158E6</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>01 添加布局</string>
+	<string>04 GCD单例</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

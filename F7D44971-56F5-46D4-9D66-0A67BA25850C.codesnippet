@@ -3,26 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lmasmake01</string>
+	<string>dantegcd02</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[&lt;#View#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
-            
-}];</string>
+	<string>dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(&lt;#delayInSeconds#&gt; * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+    &lt;#code to be executed after a specified delay#&gt;
+});</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>40AA4E01-22E7-4BAB-99E0-6C28CBC1FE55</string>
+	<string>F7D44971-56F5-46D4-9D66-0A67BA25850C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>01 添加布局</string>
+	<string>02 GCD延时</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
