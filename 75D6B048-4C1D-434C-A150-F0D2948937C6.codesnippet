@@ -3,26 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dantefor01</string>
+	<string>danteif03</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>for (NSInteger i = 0; i &lt; &lt;#datas#&gt;; i++) {
-
+	<string>if (&lt;#condition#&gt;) {
+    &lt;#statements#&gt;
+} else if(&lt;#condition#&gt;){
+    &lt;#statements#&gt;
+}else{
+    &lt;#statements#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7CA83B58-71B7-48D7-BA41-5D0077819573</string>
+	<string>75D6B048-4C1D-434C-A150-F0D2948937C6</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>01 for-index循环</string>
+	<string>03 if-elseif-else</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
