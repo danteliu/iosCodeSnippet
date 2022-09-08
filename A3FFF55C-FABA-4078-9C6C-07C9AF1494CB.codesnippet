@@ -15,15 +15,16 @@
     [self InitializationData];
     [self InitializeView];
 }
--(void)InitializationNavigation{
 
+- (void)InitializationNavigation {/**&lt;  初始化导航栏 */
 }
--(void)InitializationData{
-    
+
+- (void)InitializationData {/**&lt;  初始化数据 */
 }
--(void)InitializeView{
-    
-}</string>
+
+- (void)InitializeView {/**&lt;  初始化视图 */
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>A3FFF55C-FABA-4078-9C6C-07C9AF1494CB</string>
 	<key>IDECodeSnippetLanguage</key>
