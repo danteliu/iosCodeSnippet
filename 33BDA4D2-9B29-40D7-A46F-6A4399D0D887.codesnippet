@@ -10,25 +10,34 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>- (instancetype)initWithFrame:(CGRect)frame;
+#pragma mark -
+#pragma mark life cycle
 - (instancetype)initWithFrame:(CGRect)frame {
-    self = [super initWithFrame:frame];
-
-    if (self) {
-        [self initData];
+    if (self = [super initWithFrame:frame]) {
         [self setupUI];
     }
 
     return self;
 }
 
-- (void)initData {/**&lt;  初始化数据 */
+- (void)dealloc {
 }
 
+#pragma mark -
+#pragma mark private method
 - (void)setupUI {/**&lt;  初始化 UI */
 }
 
 #pragma mark -
-#pragma mark 懒加载</string>
+#pragma mark public method
+
+
+#pragma mark -
+#pragma mark event response
+
+
+#pragma mark -
+#pragma mark setter &amp;&amp; getter &amp;&amp; lazy</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>33BDA4D2-9B29-40D7-A46F-6A4399D0D887</string>
 	<key>IDECodeSnippetLanguage</key>

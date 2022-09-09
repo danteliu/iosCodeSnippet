@@ -3,50 +3,33 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>danteinit02</string>
+	<string>danteshareInstance01</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (instancetype)init;
+	<string>+ (instancetype)sharedInstance {
+    static &lt;#class#&gt; *_sharedInstance = nil;
+    static dispatch_once_t onceToken;
 
-- (instancetype)init {
-    if (self = [super init]) {
-        [self setupUI];
-    }
-    return self;
-}
+    dispatch_once(&amp;onceToken, ^{
+        _sharedInstance = &lt;#initializer#&gt;;
+    });
 
-- (void)dealloc {
-}
-
-#pragma mark -
-#pragma mark private method
-- (void)setupUI {/**&lt;  初始化 UI */
-}
-
-#pragma mark -
-#pragma mark public method
-
-
-#pragma mark -
-#pragma mark event response
-
-
-#pragma mark -
-#pragma mark setter &amp;&amp; getter &amp;&amp; lazy</string>
+    return _sharedInstance;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B8BEDA9E-F5B1-40BE-9F85-B5606A331FDE</string>
+	<string>D780DBA4-9E91-411A-AF1F-F0C03FD10108</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>02 初始化init</string>
+	<string>01创建单例 oc</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
