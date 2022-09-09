@@ -3,26 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>danteUITableView01</string>
+	<string>danteUITableView02</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>({
-    UITableView *obj=[[UITableView alloc] init];
-    obj.delegate=self;//&lt;UITableViewDelegate,UITableViewDataSource&gt;
-    obj.dataSource=self;
-    obj.estimatedRowHeight=60;
-    obj.backgroundColor=UIColor.clearColor;
-    [obj setSeparatorStyle:(UITableViewCellSeparatorStyleNone)];
-    obj.alwaysBounceVertical=NO;//是否竖向滚动
-    [&lt;#self.view#&gt; addSubview:obj];
-    [obj mas_makeConstraints:^(MASConstraintMaker *make) {
-       
-    }];
-    obj;
-});</string>
+	<string>- (UITableView *)&lt;#name#&gt; {
+    if (!_&lt;#name#&gt;) {
+        _&lt;#name#&gt; = ({
+            UITableView *obj = [[UITableView alloc] init];
+            obj.delegate = self;
+            obj.dataSource = self;
+            obj.estimatedRowHeight = 60;
+            obj.backgroundColor = UIColor.clearColor;
+            [obj setSeparatorStyle:(UITableViewCellSeparatorStyleNone)];
+            obj.alwaysBounceVertical = NO;//是否竖向滚动
+            obj;
+        });
+    }
+
+    return _&lt;#name#&gt;;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>1DC9D691-4274-48AD-BC66-FB38D670BE8C</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -30,7 +32,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>01 创建tabview(gnuc)</string>
+	<string>02 UITableView 实例(gnuc)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

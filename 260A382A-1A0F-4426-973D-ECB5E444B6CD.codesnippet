@@ -3,25 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dantedelegate01</string>
+	<string>danteuitableview01</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, weak) id&lt;&lt;#delegateName#&gt;&gt; delegate;
-</string>
+	<string>@property (nonatomic, strong) UITableView * tableView&lt;#name#&gt;;/**&lt;  &lt;#属性注释#&gt; */</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1CEF65B2-05EB-4290-AA91-BCEE1B716AE2</string>
+	<string>260A382A-1A0F-4426-973D-ECB5E444B6CD</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>01 创建一个delegate属性</string>
+	<string>01 UITableView 属性</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
