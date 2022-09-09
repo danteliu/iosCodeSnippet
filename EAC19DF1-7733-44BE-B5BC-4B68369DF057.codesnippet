@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) UIImageView * image&lt;#name#&gt;;/**&lt;  &lt;#属性注释#&gt; */</string>
+	<string>@property (nonatomic, strong) UIImageView * imageView&lt;#name#&gt;;/**&lt;  &lt;#属性注释#&gt; */</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>EAC19DF1-7733-44BE-B5BC-4B68369DF057</string>
 	<key>IDECodeSnippetLanguage</key>
