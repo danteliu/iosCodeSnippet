@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>danteproui03</string>
+	<string>danteuiimageview01</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -11,16 +11,16 @@
 	<key>IDECodeSnippetContents</key>
 	<string>@property (nonatomic, strong) UIImageView * image&lt;#name#&gt;;/**&lt;  &lt;#属性注释#&gt; */</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>18365B25-C819-46E5-9E1B-66C50BF91344</string>
+	<string>EAC19DF1-7733-44BE-B5BC-4B68369DF057</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>03创建UIimageView</string>
+	<string>01 创建UIImageView 属性</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

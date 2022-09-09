@@ -3,29 +3,39 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dantechain01</string>
+	<string>danteuilabel02</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (&lt;#Class#&gt; (^)(&lt;#void#&gt;))&lt;#name#&gt; {/**&lt;  &lt;#属性注释#&gt; */
-    return ^(&lt;#void#&gt;){
-        
-        return self;
-    };
+	<string>- (UILabel *)&lt;#name#&gt; {
+    if (!_&lt;#name#&gt;) {
+        _&lt;#name#&gt; = ({
+            UILabel *obj = [[UILabel alloc] init];
+            obj.backgroundColor = UIColor.redColor;
+            obj.font = [UIFont systemFontOfSize:13];
+            obj.text = @"test";
+            obj.textColor = UIColor.whiteColor;
+            obj.numberOfLines = 1;
+            obj.lineBreakMode = NSLineBreakByTruncatingTail;
+            obj;
+        });
+    }
+
+    return _&lt;#name#&gt;;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>480EA42B-40FC-4E59-9BFA-65A573AEBDFB</string>
+	<string>3F21B1BA-CAE2-4CB6-9687-6DBBAFB3196D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>01 创建一个链式实现</string>
+	<string>02 gunc创建uilabel</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

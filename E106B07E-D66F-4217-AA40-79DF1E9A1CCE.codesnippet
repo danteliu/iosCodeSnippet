@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>danteproui01</string>
+	<string>dantensstring03</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) UIView * view&lt;#name#&gt;;/**&lt;  &lt;#属性注释#&gt; */</string>
+	<string>[&lt;#str1#&gt; isEqualToString:&lt;#@""#&gt;]</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C156FFB7-0BC6-409C-BA12-0F91512D58EC</string>
+	<string>E106B07E-D66F-4217-AA40-79DF1E9A1CCE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>01创建UIView</string>
+	<string>03 字符串 判断是否相等</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

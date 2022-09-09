@@ -3,24 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dantensstring01</string>
+	<string>dantecalayer02</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) NSString * &lt;#name#&gt;;/**&lt;  &lt;#属性注释#&gt; */</string>
+	<string>self.layer.borderColor = &lt;#UIColor.redColor#&gt;.CGColor;
+self.layer.borderWidth = 0;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>92FF7397-6D48-402D-907C-E68C43DA01FD</string>
+	<string>65405DDC-4DD1-4535-A33B-2D05CB7F4AF0</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>01 字符串 属性创建</string>
+	<string>02 Calayer 边框</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

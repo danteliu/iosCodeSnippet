@@ -3,24 +3,34 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dantensstring01</string>
+	<string>danteuiview02</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) NSString * &lt;#name#&gt;;/**&lt;  &lt;#属性注释#&gt; */</string>
+	<string>- (UIView *)&lt;#name#&gt; {
+    if (!_&lt;#name#&gt;) {
+        _&lt;#name#&gt; = ({
+            UIView *obj = [[UIView alloc] init];
+            obj.backgroundColor=UIColor.redColor;
+            obj;
+        });
+    }
+
+    return _&lt;#name#&gt;;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>92FF7397-6D48-402D-907C-E68C43DA01FD</string>
+	<string>F213F36A-261A-457B-A1E3-A38066E73BCB</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>01 字符串 属性创建</string>
+	<string>02 gunc 懒加载 uiview</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

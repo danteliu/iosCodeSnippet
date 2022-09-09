@@ -3,24 +3,36 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>danteproui04</string>
+	<string>danteuiImageViwe02</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) &lt;#class name#&gt; * &lt;#name#&gt;;/**&lt;  &lt;#属性注释#&gt; */</string>
+	<string>- (UIImageView *)&lt;#name#&gt; {
+    if (!_&lt;#name#&gt;) {
+        _&lt;#name#&gt; = ({
+            UIImageView *obj = [[UIImageView alloc] init];
+            obj.image = [UIImage imageNamed:@"&lt;#imgName#&gt;"];
+            obj.contentMode = UIViewContentModeScaleAspectFill;
+            obj.userInteractionEnabled = YES;
+            obj;
+        });
+    }
+
+    return _&lt;#name#&gt;;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>80919E94-BEBB-447F-895D-325672B403F6</string>
+	<string>CBF68DF0-69DC-4D6E-8A22-46A0A39D8A7D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>04创建自定义视图</string>
+	<string>02 gunc 创建uiimageview</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
