@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) NSDictionary * &lt;#name#&gt;;/**&lt;  &lt;#属性注释#&gt; */
+	<string>@property (nonatomic, strong) NSDictionary * dictionary&lt;#name#&gt;;/**&lt;  &lt;#属性注释#&gt; */
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>C57B123E-361D-41B2-85A4-06775B986EE8</string>

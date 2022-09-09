@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, assign) NSInteger &lt;#name#&gt;;/**&lt;  &lt;#属性注释#&gt; */
+	<string>@property (nonatomic, assign) NSInteger integer&lt;#name#&gt;;/**&lt;  &lt;#属性注释#&gt; */
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>18A0EC44-21DA-4A10-BECE-D17DFD921CA6</string>
