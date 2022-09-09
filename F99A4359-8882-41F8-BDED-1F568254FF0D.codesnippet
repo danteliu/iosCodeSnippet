@@ -3,26 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>danteinterface01</string>
+	<string>danteimplementation01</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@interface &lt;#class name#&gt; ()
+	<string>@implementation &lt;#class#&gt;
+
+&lt;#methods#&gt;
 
 @end</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C386514A-6CD5-4A28-B4A8-4AA7B9DDD75C</string>
+	<string>F99A4359-8882-41F8-BDED-1F568254FF0D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>01 extention(只能在.m文件中使用)</string>
+	<string>01 implementation 类实现</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
