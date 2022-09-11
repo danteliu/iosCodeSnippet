@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dUICollectionView03</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (id)layout {
+    if (!_layout) {
+        _layout = ({
+            UICollectionViewFlowLayout *obj = [[UICollectionViewFlowLayout alloc] init];
+            obj.scrollDirection = UICollectionViewScrollDirectionVertical;//方向
+            obj;
+        });
+    }
+
+    return _layout;
+}
+
+- (id)&lt;#name#&gt; {
+    if (!_&lt;#name#&gt;) {
+        _&lt;#name#&gt; = ({
+            UICollectionView *obj = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:self.layout];
+            obj.delegate = self;
+            obj.dataSource = self;
+            obj.backgroundColor = [UIColor clearColor];
+            NSArray &lt;Class&gt; *classArr = @[
+                [&lt;#class#&gt; class],
+            ];
+            [classArr enumerateObjectsUsingBlock:^(Class _Nonnull class, NSUInteger idx, BOOL *_Nonnull stop) {
+                [obj registerClass:class forCellWithReuseIdentifier:NSStringFromClass(class)];
+            }];
+            obj.showsHorizontalScrollIndicator = false;
+            obj;
+        });
+    }
+
+    return _&lt;#name#&gt;;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>BCA126E4-9BD8-4731-95DC-57A614D7287F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>03 创建 gunc方式</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

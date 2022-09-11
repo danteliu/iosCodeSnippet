@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ddelegate02</string>
+	<string>ddelegate04</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;UITableViewDelegate,UITableViewDataSource&gt;</string>
+	<string>&lt;UIScrollViewDelegate&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>385D827A-6E64-4955-8367-3330521E3FAF</string>
+	<string>3F55AADC-A959-4D82-9644-FB9302767909</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>02 tableView Delegate</string>
+	<string>04 scrollView Delegate</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

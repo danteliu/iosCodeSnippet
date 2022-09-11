@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dUIScrollView03</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark -
+#pragma mark UIScrollView delegate
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    // 当scrollView的contentOffset发生变化时调用
+}
+
+- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView {
+    // 将要开始拖拽时调用(注: 该方法可能需要先滑动一段时间或距离才会被调用)
+}
+
+- (void)scrollViewWillEndDragging:(UIScrollView *)scrollView withVelocity:(CGPoint)velocity targetContentOffset:(inout CGPoint *)targetContentOffset {
+    // 当用户停止拖拽时调用(注: 应用程序可以通过修改targetContentOffset参数的值来调整内容视图content view停止的位置)
+}
+
+- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate {
+    // 当用户停止拖拽时调用(注: 如果内容视图content view在停止拖拽后继续移动,则decelerate参数为YES)
+}
+
+- (void)scrollViewWillBeginDecelerating:(UIScrollView *)scrollView {
+    // 将要开始减速时调用(仅当停止拖拽后继续移动时才会被调用)
+}
+
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
+    // 已经结束减速时调用(仅当停止拖拽后继续移动时才会被调用)
+}
+
+- (BOOL)scrollViewShouldScrollToTop:(UIScrollView *)scrollView {
+    // 返回是否允许点击状态栏让scrollView滑动到顶部,如果未实现该方法,则默认为YES(仅当scrollsToTop属性为YES时才调用)
+    return YES;
+}
+
+- (void)scrollViewDidScrollToTop:(UIScrollView *)scrollView {
+    // 当scrollView已经滑动到顶部时调用(仅当点击状态栏让scrollView滑动到顶部才调用)
+}
+
+- (void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView {
+    // 当-setContentOffset:animated:/-scrollRectVisible:animated:方法动画结束时调用(仅当animated设置为YES时才调用)
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>21B03DC9-E597-42CD-982E-A4734EF1A85C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>03 UIScrollView代理方法</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dUIScrollView02</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (id)&lt;#name#&gt; {
+    if (!_&lt;#name#&gt;) {
+        _&lt;#name#&gt; = ({
+            UIScrollView *obj = [[UIScrollView alloc] init];
+            obj.backgroundColor = UIColor.clearColor;
+            obj.delegate = self;
+            obj.pagingEnabled = NO;//是否分页
+            obj.scrollEnabled = YES;//是否能滚动
+            obj.scrollsToTop = YES;//是否允许点击状态栏让距离状态栏最近的scrollView滑动到顶部,默认为YES
+            obj.bounces = NO;//是否有触底反弹效果,默认为YES
+            obj.alwaysBounceVertical = YES;//竖向弹跳
+            obj.alwaysBounceHorizontal = NO;//横向弹跳
+            obj.showsHorizontalScrollIndicator = YES;//横向指示器
+            obj.showsVerticalScrollIndicator = YES;//竖向指示器
+            obj.scrollIndicatorInsets = UIEdgeInsetsMake(0, 0, 0, 0);//为指示器周围增加可滚动区域
+            /**
+               obj.tracking;//点击中
+               obj.dragging;//拖拽中
+             */
+            obj;
+        });
+    }
+
+    return _&lt;#name#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>3B235965-BC0B-4D8C-98F0-81A33F093F18</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>02 UIScrollView 创建 gnuc</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
