@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>danteinit01</string>
+	<string>dinit01</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -18,6 +18,10 @@
     }
 
     return self;
+}
+
+- (void)layoutSubviews {
+    [super layoutSubviews];
 }
 
 - (void)dealloc {
