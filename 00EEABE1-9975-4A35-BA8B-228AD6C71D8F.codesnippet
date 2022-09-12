@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lline03</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>[&lt;#line#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {/**&lt;  上边线段 */
+    make.left.offset(&lt;#0#&gt;);
+    make.right.offset(&lt;#0#&gt;);
+    
+    make.top.offset(0);
+    make.height.mas_equalTo(1);
+}];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>00EEABE1-9975-4A35-BA8B-228AD6C71D8F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>03 上边线段</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
