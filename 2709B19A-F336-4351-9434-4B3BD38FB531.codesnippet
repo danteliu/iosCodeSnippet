@@ -3,36 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>duiimageview02</string>
+	<string>duiimageview03</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (UIImageView *)&lt;#name#&gt; {
-    if (!_&lt;#name#&gt;) {
-        _&lt;#name#&gt; = ({
-            UIImageView *obj = [[UIImageView alloc] init];
-            obj.image = [UIImage imageNamed:@"&lt;#imgName#&gt;"];
-            obj.contentMode = UIViewContentModeScaleAspectFill;
-            obj.userInteractionEnabled = YES;
-            obj;
-        });
-    }
-
-    return _&lt;#name#&gt;;
-}</string>
+	<string>UIImageView *&lt;#name#&gt; = [[UIImageView alloc] init];
+&lt;#name#&gt;.image = [UIImage imageNamed:@"&lt;#imgName#&gt;"];
+&lt;#name#&gt;.contentMode = UIViewContentModeScaleAspectFill;
+&lt;#name#&gt;.userInteractionEnabled = YES;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>CBF68DF0-69DC-4D6E-8A22-46A0A39D8A7D</string>
+	<string>2709B19A-F336-4351-9434-4B3BD38FB531</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>02 gunc 创建uiimageview</string>
+	<string>03 创建imageView 原生</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

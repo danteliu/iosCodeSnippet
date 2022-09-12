@@ -3,36 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>duiimageview02</string>
+	<string>duilabel03</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (UIImageView *)&lt;#name#&gt; {
-    if (!_&lt;#name#&gt;) {
-        _&lt;#name#&gt; = ({
-            UIImageView *obj = [[UIImageView alloc] init];
-            obj.image = [UIImage imageNamed:@"&lt;#imgName#&gt;"];
-            obj.contentMode = UIViewContentModeScaleAspectFill;
-            obj.userInteractionEnabled = YES;
-            obj;
-        });
-    }
-
-    return _&lt;#name#&gt;;
-}</string>
+	<string>UILabel *&lt;#name#&gt; = [[UILabel alloc] init];
+&lt;#name#&gt;.backgroundColor = UIColor.redColor;
+&lt;#name#&gt;.font = [UIFont systemFontOfSize:13];
+&lt;#name#&gt;.text = @"test";
+&lt;#name#&gt;.textColor = UIColor.whiteColor;
+&lt;#name#&gt;.numberOfLines = 1;
+&lt;#name#&gt;.lineBreakMode = NSLineBreakByTruncatingTail;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>CBF68DF0-69DC-4D6E-8A22-46A0A39D8A7D</string>
+	<string>6EA9DE7F-36C9-4580-865A-05E50ADA55F9</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>原生实现</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>02 gunc 创建uiimageview</string>
+	<string>03 创建label(原生)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

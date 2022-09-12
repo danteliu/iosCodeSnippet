@@ -3,36 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>duiimageview02</string>
+	<string>duiview04</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (UIImageView *)&lt;#name#&gt; {
-    if (!_&lt;#name#&gt;) {
-        _&lt;#name#&gt; = ({
-            UIImageView *obj = [[UIImageView alloc] init];
-            obj.image = [UIImage imageNamed:@"&lt;#imgName#&gt;"];
-            obj.contentMode = UIViewContentModeScaleAspectFill;
-            obj.userInteractionEnabled = YES;
-            obj;
-        });
-    }
-
-    return _&lt;#name#&gt;;
-}</string>
+	<string>UIView *&lt;#name#&gt; = [[UIView alloc] init];
+&lt;#name#&gt;.backgroundColor = UIColor.redColor;
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>CBF68DF0-69DC-4D6E-8A22-46A0A39D8A7D</string>
+	<string>CED42A17-AE0F-4E88-A792-41434AAF2C3A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>原生实现</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>02 gunc 创建uiimageview</string>
+	<string>04 创建uiview 实例</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
