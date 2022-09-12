@@ -3,29 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lmassize03</string>
+	<string>dfunc06</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[&lt;#view#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
-    make.size.mas_equalTo(CGSizeMake(&lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;));
-    make.centerY.offset(0);
-    make.left.offset(&lt;#0#&gt;);
-}];
-</string>
+	<string>- (void)handleLongPressGestureRecognizer:(UILongPressGestureRecognizer *)gestureRecognizer {/**&lt;  longPress:&lt;#注释#&gt; */
+    &lt;#code#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2AB5CB77-9FED-4E4D-A2D6-AD513EFCB763</string>
+	<string>408E95A2-A95E-479D-830A-4B36F7639071</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>03 y轴居中 距左多少</string>
+	<string>06 创建longPress手势事件回调</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

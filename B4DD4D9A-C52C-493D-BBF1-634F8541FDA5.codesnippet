@@ -3,29 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lmassize03</string>
+	<string>dNSTimer01</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[&lt;#view#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
-    make.size.mas_equalTo(CGSizeMake(&lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;));
-    make.centerY.offset(0);
-    make.left.offset(&lt;#0#&gt;);
-}];
+	<string>NSTimer *tempTimer = [NSTimer scheduledTimerWithTimeInterval:&lt;#duration#&gt; target:self selector:@selector(&lt;#selector#&gt;) userInfo:nil repeats:YES];
+[[NSRunLoop currentRunLoop] addTimer:tempTimer forMode:NSRunLoopCommonModes];
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2AB5CB77-9FED-4E4D-A2D6-AD513EFCB763</string>
+	<string>B4DD4D9A-C52C-493D-BBF1-634F8541FDA5</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>创建NSTimer定时器</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>03 y轴居中 距左多少</string>
+	<string>01 创建NSTimer定时器</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -3,29 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lmassize03</string>
+	<string>dlog03</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[&lt;#view#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
-    make.size.mas_equalTo(CGSizeMake(&lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;));
-    make.centerY.offset(0);
-    make.left.offset(&lt;#0#&gt;);
-}];
+	<string>NSLog(@"Call Stack: %@", [NSThread callStackSymbols]);
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2AB5CB77-9FED-4E4D-A2D6-AD513EFCB763</string>
+	<string>D20D6D0B-9F1D-4609-83F3-054A4DC3F643</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>03 y轴居中 距左多少</string>
+	<string>03 用 NSLog 打出当前的方法调用栈信息</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

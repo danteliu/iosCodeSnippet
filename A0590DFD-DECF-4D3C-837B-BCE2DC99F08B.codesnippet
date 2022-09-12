@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dname02</string>
+	<string>dvar02</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>BOOL name;</string>
+	<string>&lt;#class#&gt; &lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>A0590DFD-DECF-4D3C-837B-BCE2DC99F08B</string>
 	<key>IDECodeSnippetLanguage</key>

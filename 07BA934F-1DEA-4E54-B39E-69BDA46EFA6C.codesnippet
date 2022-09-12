@@ -3,29 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lmassize03</string>
+	<string>dfunc04</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[&lt;#view#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
-    make.size.mas_equalTo(CGSizeMake(&lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;));
-    make.centerY.offset(0);
-    make.left.offset(&lt;#0#&gt;);
-}];
-</string>
+	<string>- (void)handleTapGestureRecognizer:(UITapGestureRecognizer *)gestureRecognizer {/**&lt;  tap:&lt;#注释#&gt; */
+    &lt;#code#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2AB5CB77-9FED-4E4D-A2D6-AD513EFCB763</string>
+	<string>07BA934F-1DEA-4E54-B39E-69BDA46EFA6C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>03 y轴居中 距左多少</string>
+	<string>04 创建tap手势事件回调</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
