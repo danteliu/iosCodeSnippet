@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lvar02</string>
+	<string>ladd01</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#class#&gt; &lt;#name#&gt;;</string>
+	<string>[&lt;#supview#&gt; addSubview:&lt;#view#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A0590DFD-DECF-4D3C-837B-BCE2DC99F08B</string>
+	<string>16094CDB-C906-415F-85AF-2FDA34A09BBF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>添加视图</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>02-创建变量</string>
+	<string>01 添加View 到视图上</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

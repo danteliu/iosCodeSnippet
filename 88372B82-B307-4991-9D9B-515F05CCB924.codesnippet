@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lvar02</string>
+	<string>ladd02</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#class#&gt; &lt;#name#&gt;;</string>
+	<string>[&lt;#array#&gt; addObject: &lt;#obj#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A0590DFD-DECF-4D3C-837B-BCE2DC99F08B</string>
+	<string>88372B82-B307-4991-9D9B-515F05CCB924</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>02-创建变量</string>
+	<string>02 数组添加对象</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
