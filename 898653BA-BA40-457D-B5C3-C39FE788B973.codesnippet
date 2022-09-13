@@ -11,8 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>AspGetMethodReturnObjc(_&lt;#obj#&gt;);
 _&lt;#obj#&gt; = [[&lt;#class#&gt; alloc] init];
-return _&lt;#obj#&gt;;
-</string>
+return _&lt;#obj#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>898653BA-BA40-457D-B5C3-C39FE788B973</string>
 	<key>IDECodeSnippetLanguage</key>

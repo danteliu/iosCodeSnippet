@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>duifont02</string>
+	<string>duicolor03</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[UIFont boldSystemFontOfSize:&lt;#(CGFloat)#&gt;];</string>
+	<string>[UIColor asp_hexCode:0x&lt;#hex#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>37BF1B27-C25A-4D4F-85D4-44B399EC46B4</string>
+	<string>0B796508-CBAA-40BB-AB2F-36E98E59E7BE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>02 字体 加粗</string>
+	<string>03 hex颜色</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
