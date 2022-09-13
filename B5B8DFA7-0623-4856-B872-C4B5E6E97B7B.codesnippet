@@ -3,28 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dif08</string>
+	<string>lself03</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#if &lt;#condition#&gt;
-&lt;#code#&gt;
-#else
-&lt;#code#&gt;
-#endif</string>
+	<string>AspWS(ws);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>84325C57-F121-4A51-96E0-BD4EAC50CCE9</string>
+	<string>B5B8DFA7-0623-4856-B872-C4B5E6E97B7B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>08 添加条件编译</string>
+	<string>03 aspweak</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

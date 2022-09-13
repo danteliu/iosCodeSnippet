@@ -10,7 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>self.layer.masksToBounds = YES;
-self.layer.cornerRadius = 0;</string>
+self.layer.cornerRadius = &lt;#radius#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>4454ABE5-5124-4739-AC53-FACFF3026C42</string>
 	<key>IDECodeSnippetLanguage</key>
