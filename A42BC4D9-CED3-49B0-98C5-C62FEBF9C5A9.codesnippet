@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#expression#&gt; ? &lt;#obj1#&gt;: &lt;#obj2#&gt;</string>
+	<string>&lt;#expression#&gt; ? &lt;#obj1#&gt; : &lt;#obj2#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>A42BC4D9-CED3-49B0-98C5-C62FEBF9C5A9</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -21,6 +21,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
