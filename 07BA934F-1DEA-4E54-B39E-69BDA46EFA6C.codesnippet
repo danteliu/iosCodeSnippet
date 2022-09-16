@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)handleTapGestureRecognizer:(UITapGestureRecognizer *)gestureRecognizer {/**&lt;  tap:&lt;#注释#&gt; */
+	<string>- (void)handleTapGestureRecognizer:(UITapGestureRecognizer *)gestureRecognizer {/**&lt;  &lt;#注释#&gt; */
     &lt;#code#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
