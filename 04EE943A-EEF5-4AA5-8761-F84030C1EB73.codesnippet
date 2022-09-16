@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(pan&lt;#name#&gt;:)]</string>
+	<string>[[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(&lt;#name#&gt;)]</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>04EE943A-EEF5-4AA5-8761-F84030C1EB73</string>
 	<key>IDECodeSnippetLanguage</key>
