@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dNSCopying01</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void)encodeWithCoder:(NSCoder *)coder {/**&lt;  归档 */
+    unsigned int count = 0;
+    Ivar *ivars = class_copyIvarList([self class], &amp;count);//计算属性个数
+    
+    for (NSInteger i = 0; i &lt; count; i++) {
+        Ivar ivar = ivars[i];
+        const char *name = ivar_getName(ivar);//获得属性名字
+        NSString *key = [NSString stringWithUTF8String:name];
+        [coder encodeObject:[self valueForKey:key] forKey:key];//kvc获得对象
+    }
+    
+    free(ivars);
+}
+
+- (instancetype)initWithCoder:(NSCoder *)coder {/**&lt;  解档 */
+    self = [super init];
+    
+    if (self) {
+        unsigned int count = 0;
+        Ivar *ivars = class_copyIvarList([self class], &amp;count);
+        
+        for (NSInteger i = 0; i &lt; count; i++) {
+            Ivar ivar = ivars[i];
+            const char *name = ivar_getName(ivar);
+            NSString *key = [NSString stringWithUTF8String:name];
+            id value = [coder decodeObjectForKey:key];//通过解档获得属性值
+            [self setValue:value forKey:key];//设置到成员变量身上
+        }
+        
+        free(ivars);
+    }
+    
+    return self;
+}
+
+- (nonnull id)copyWithZone:(nullable NSZone *)zone {
+    id objCopy = [[[self class] allocWithZone:zone] init];
+    
+    unsigned int propertyCount = 0;
+    objc_property_t *propertyArray = class_copyPropertyList([self class], &amp;propertyCount);// 1.获取属性列表
+    
+    for (int i = 0; i &lt; propertyCount; i++) {
+        objc_property_t property = propertyArray[i];
+        const char *propertyName = property_getName(property);// 2.属性名字
+        NSString *key = [NSString stringWithUTF8String:propertyName];
+        id value = [self valueForKey:key];// 3.通过属性名拿到属性值(kvc)
+        
+        if ([value respondsToSelector:@selector(copyWithZone:)]) {// 4.判断 值对象是否响应copyWithZone
+            [objCopy setValue:[value copy] forKey:key];//5. 设置属性值
+        } else {
+            [objCopy setValue:value forKey:key];
+        }
+    }
+    
+    free(propertyArray);//6.手动释放
+    return objCopy;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>6E1833CA-EC37-4649-849B-969FEEF234B1</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>01 实现NSCopying 协议</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

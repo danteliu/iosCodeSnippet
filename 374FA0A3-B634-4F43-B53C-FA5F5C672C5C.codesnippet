@@ -3,39 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dUIViewController01</string>
+	<string>dNSKeyedArchiver01</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)viewDidLoad {
-    [super viewDidLoad];
-    [self initNavigation];
-    [self initData];
-    [self initView];
-}
-
-- (void)initNavigation {/**&lt;  初始化导航栏 */
-}
-
-- (void)initData {/**&lt;  初始化数据 */
-}
-
-- (void)initView {/**&lt;  初始化视图 */
-}
-</string>
+	<string>[NSKeyedArchiver archiveRootObject:&lt;#model#&gt; toFile:&lt;#filePath#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A3FFF55C-FABA-4078-9C6C-07C9AF1494CB</string>
+	<string>374FA0A3-B634-4F43-B53C-FA5F5C672C5C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>会把 model 的数据存储到 filePath 这个路径的文件里</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>01视图控制器的初始化配置</string>
+	<string>01 归档</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
