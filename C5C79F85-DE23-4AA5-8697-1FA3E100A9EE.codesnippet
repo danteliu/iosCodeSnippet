@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dUIButton02</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>-(id)&lt;#obj#&gt;{
+    if (!_&lt;#obj#&gt;) {
+        _&lt;#obj#&gt; = ({
+            UIButton *obj = [UIButton buttonWithType:(UIButtonTypeCustom)];
+            obj.backgroundColor = [UIColor clearColor];
+            [obj setImage:[UIImage imageNamed:@""] forState:UIControlStateNormal];
+            [obj setBackgroundImage:[UIImage imageNamed:@""] forState:UIControlStateNormal];
+            
+            [obj setTitle:@"&lt;#title#&gt;" forState:UIControlStateNormal];
+            obj.titleLabel.font = [UIFont fontWithName:@"Arial" size:18.0];//字体大小
+            [obj setTitleColor:&lt;#正常文字颜色#&gt; forState:UIControlStateNormal];
+            [obj setTitleColor:&lt;#高亮文字颜色#&gt; forState:UIControlStateHighlighted];
+            
+            [obj addTarget:self action:@selector(&lt;#event#&gt;) forControlEvents:UIControlEventTouchUpInside];
+            obj;
+        });
+    }
+    return _&lt;#obj#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C5C79F85-DE23-4AA5-8697-1FA3E100A9EE</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>01 UIButton gnuc lazy</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
