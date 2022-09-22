@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)&lt;#method name#&gt;:(&lt;#argv type#&gt;)&lt;#argv#&gt; {/**&lt; &lt;#函数注释#&gt; */
+	<string>- (void)&lt;#method name#&gt;:(&lt;#argv type#&gt;)&lt;#argv#&gt; {/**&lt;  &lt;#注释#&gt; */
     &lt;#code#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>

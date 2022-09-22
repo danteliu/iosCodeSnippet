@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/**&lt;  &lt;#zs#&gt; */</string>
+	<string>/**&lt; &lt;#zs#&gt;  */ </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>91EC0365-9890-4FF9-A53D-567635ED9DB4</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -17,7 +17,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>01 创建属性注释</string>
+	<string>01 行尾注释</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

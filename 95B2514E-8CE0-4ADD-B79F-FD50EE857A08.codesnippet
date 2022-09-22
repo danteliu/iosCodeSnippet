@@ -9,9 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/**
- &lt;#description#&gt;
-*/</string>
+	<string>/// &lt;#description#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>95B2514E-8CE0-4ADD-B79F-FD50EE857A08</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -19,7 +17,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>02 类注释</string>
+	<string>02 注释(xcode推荐:swift 和 oc统一)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

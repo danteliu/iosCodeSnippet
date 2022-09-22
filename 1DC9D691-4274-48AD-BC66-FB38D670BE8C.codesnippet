@@ -19,8 +19,8 @@
             obj.backgroundColor = UIColor.clearColor;
             [obj setSeparatorStyle:(UITableViewCellSeparatorStyleNone)];
             obj.alwaysBounceVertical = NO;//是否竖向滚动
-            if #available(iOS 15, *) {
-                obj.sectionHeaderTopPadding = 0
+            if (@available(iOS 15, *)) {
+                obj.sectionHeaderTopPadding = 0;
             }
             obj;
         });
