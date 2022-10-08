@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dUITextField02</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>-(id)&lt;#name#&gt;{
+    if (!_&lt;#name#&gt;) {
+        _&lt;#name#&gt; = ({
+            UITextField *obj = [[UITextField alloc] init];
+            obj.placeholder = @"password";
+            obj.font = [UIFont fontWithName:@"Arial" size:20.0f];
+            obj.textColor = Color(@"#333333");
+            obj.clearButtonMode = UITextFieldViewModeWhileEditing;
+            obj.secureTextEntry = YES;//安全输入
+            obj.autocorrectionType = UITextAutocorrectionTypeNo;//自动纠错
+            obj.clearsOnBeginEditing = YES;//再次编辑就清空
+            obj.textAlignment = NSTextAlignmentLeft;
+            obj.keyboardType = UIKeyboardTypeNumberPad;
+            obj.autocapitalizationType = UITextAutocapitalizationTypeNone;//首字母大小
+            obj.returnKeyType = UIReturnKeyDone;//return 按钮类型
+
+            //obj.rightView = [[UIImageView alloc] initWithImage:Img(@"random").resize(30, 30)];//添加右边视图
+            //obj.rightViewMode = UITextFieldViewModeAlways;
+            obj;
+        });
+    }
+    return _&lt;#name#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>25691756-98E4-4B91-8FAB-643A2401B19F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>02 UITextField gnuc 懒加载</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

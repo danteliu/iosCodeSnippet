@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[UIFont boldSystemFontOfSize:&lt;#(CGFloat)#&gt;];</string>
+	<string>[UIFont boldSystemFontOfSize:&lt;#(CGFloat)#&gt;]</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>37BF1B27-C25A-4D4F-85D4-44B399EC46B4</string>
 	<key>IDECodeSnippetLanguage</key>
