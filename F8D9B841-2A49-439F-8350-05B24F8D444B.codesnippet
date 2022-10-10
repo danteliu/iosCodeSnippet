@@ -3,25 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dCALayer02</string>
+	<string>dNSURL01</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>self.layer.borderColor = &lt;#UIColor.redColor#&gt;.CGColor;
-self.layer.borderWidth = &lt;#1#&gt;;</string>
+	<string>[NSURL URLWithString:&lt;#url#&gt;]</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>65405DDC-4DD1-4535-A33B-2D05CB7F4AF0</string>
+	<string>F8D9B841-2A49-439F-8350-05B24F8D444B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>02 CALayer 边框</string>
+	<string>01 NSURL 初始化</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

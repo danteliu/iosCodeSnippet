@@ -3,25 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dCALayer02</string>
+	<string>dUIImage01</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>self.layer.borderColor = &lt;#UIColor.redColor#&gt;.CGColor;
-self.layer.borderWidth = &lt;#1#&gt;;</string>
+	<string>[UIImage imageNamed:@"&lt;#imageName#&gt;"]</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>65405DDC-4DD1-4535-A33B-2D05CB7F4AF0</string>
+	<string>A2623A79-211B-4C5D-B9AE-5B998EA72B96</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>02 CALayer 边框</string>
+	<string>01 UIImage 初始化</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
