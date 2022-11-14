@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dUIImage01</string>
+	<string>dNSNotificationCenter01</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[UIImage imageNamed:@"&lt;#imageName#&gt;"]</string>
+	<string>[[NSNotificationCenter defaultCenter] postNotificationName:&lt;#@"name"#&gt; object:nil userInfo:nil];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A2623A79-211B-4C5D-B9AE-5B998EA72B96</string>
+	<string>4A30C42F-2F68-4B77-BCB1-4D148C91D116</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>01 UIImage 初始化</string>
+	<string>01 NSNotificationCenter 发送通知</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

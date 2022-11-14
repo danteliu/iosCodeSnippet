@@ -9,11 +9,11 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>-(id)&lt;#name#&gt;{
+	<string>- (id)&lt;#name#&gt;{
     if (!_&lt;#name#&gt;) {
         _&lt;#name#&gt;=({
             &lt;#class#&gt; *obj=[[&lt;#class#&gt; alloc] init];
-            &lt;#code#&gt;
+            
             obj;
         });
     }
