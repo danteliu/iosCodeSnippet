@@ -9,12 +9,13 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (&lt;#Class#&gt; (^)(&lt;#void#&gt;))&lt;#name#&gt; {/**&lt;  &lt;#属性注释#&gt; */
-    return ^(&lt;#void#&gt;){
+	<string>/// &lt;#注释#&gt;
+- (void (^)(&lt;#NSDictionary#&gt; *_Nonnull &lt;#name#&gt;))&lt;#functionName#&gt; {
+    return ^(&lt;#NSDictionary#&gt; *_Nonnull &lt;#name#&gt;) {
         
-        return self;
     };
-}</string>
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>480EA42B-40FC-4E59-9BFA-65A573AEBDFB</string>
 	<key>IDECodeSnippetLanguage</key>

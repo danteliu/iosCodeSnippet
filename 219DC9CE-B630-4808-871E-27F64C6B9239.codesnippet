@@ -3,24 +3,37 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dlog01</string>
+	<string>dlog04</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSLog(@"&lt; dante.&lt;#&lt;code&gt;#&gt; &gt; : \n%@", &lt;#...#&gt;);</string>
+	<string>NSArray &lt;NSString *&gt; *urls = @[
+    @"querySubscribeFlowSpec",
+];
+[urls enumerateObjectsUsingBlock:^(NSString *_Nonnull obj, NSUInteger idx, BOOL *_Nonnull stop) {
+    if ([url containsString:obj]) {
+        NSDictionary *dict = @{
+            @"net_url": url,
+            @"net_customHeaders": aReq.customHeaders,
+            @"net_body": aReq.body,
+            @"net_response":str,
+        };
+        NSLog(@"&lt; dante.post.dict &gt; : \n%@", dict);
+    }
+}];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C1EB57EA-65E9-436D-8E27-1697F7155CC0</string>
+	<string>219DC9CE-B630-4808-871E-27F64C6B9239</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>01 系统打印日志</string>
+	<string>04 打印网络请求信息</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

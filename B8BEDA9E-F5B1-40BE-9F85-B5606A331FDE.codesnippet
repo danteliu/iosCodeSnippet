@@ -27,7 +27,8 @@
 
 #pragma mark -
 #pragma mark private method
-- (void)setupUI {/**&lt;  初始化 UI */
+/// UI 初始化
+- (void)setupUI {
 }
 
 #pragma mark -
