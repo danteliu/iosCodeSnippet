@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSLog(@"&lt; dante.&lt;#&lt;code&gt;#&gt; &gt; : \n%@", &lt;#...#&gt;);</string>
+	<string>NSLog(@"&lt; dante.&lt;#&lt;code&gt;#&gt; &gt; : \n%@", &lt;#@""#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>C1EB57EA-65E9-436D-8E27-1697F7155CC0</string>
 	<key>IDECodeSnippetLanguage</key>
