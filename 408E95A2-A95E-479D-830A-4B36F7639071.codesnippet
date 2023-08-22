@@ -9,7 +9,8 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)handleLongPressGestureRecognizer:(UILongPressGestureRecognizer *)gestureRecognizer {/**&lt;  &lt;#注释#&gt; */
+	<string>/// &lt;#注释#&gt;
+- (void)handleLongPressGestureRecognizer:(UILongPressGestureRecognizer *)gestureRecognizer {
     &lt;#code#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>

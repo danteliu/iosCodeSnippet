@@ -9,19 +9,23 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)viewWillAppear:(BOOL)animated {/**&lt;  将要出现 */
+	<string>/// 视图 将要出现
+- (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
 }
 
-- (void)viewDidAppear:(BOOL)animated {/**&lt;  已经出现 */
+/// 视图 已经出现
+- (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
 }
 
-- (void)viewWillDisappear:(BOOL)animated {/**&lt;  将要消失 */
+/// 视图 将要消失
+- (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
 }
 
-- (void)viewDidDisappear:(BOOL)animated {/**&lt;  已经消失 */
+/// 已经消失
+- (void)viewDidDisappear:(BOOL)animated {
     [super viewDidDisappear:animated];
 }</string>
 	<key>IDECodeSnippetIdentifier</key>

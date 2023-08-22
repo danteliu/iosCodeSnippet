@@ -16,13 +16,16 @@
     [self initView];
 }
 
-- (void)initNavigation {/**&lt;  初始化导航栏 */
+/// 初始化导航栏
+- (void)initNavigation {
 }
 
-- (void)initData {/**&lt;  初始化数据 */
+/// 初始化数据
+- (void)initData {
 }
 
-- (void)initView {/**&lt;  初始化视图 */
+/// 初始化视图
+- (void)initView {
 }
 </string>
 	<key>IDECodeSnippetIdentifier</key>

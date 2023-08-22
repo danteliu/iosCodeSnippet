@@ -9,7 +9,8 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)stopTime {/**&lt;  关闭定时器 */
+	<string>/// 关闭定时器
+- (void)stopTime {
     if (&lt;#timer#&gt;) {
         [&lt;#timer#&gt; invalidate];
         &lt;#timer#&gt; = nil;

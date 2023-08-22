@@ -9,7 +9,8 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)handlePanGestureRecognizer:(UIPanGestureRecognizer *)gestureRecognizer {/**&lt;  &lt;#注释#&gt; */
+	<string>/// &lt;#注释#&gt;
+- (void)handlePanGestureRecognizer:(UIPanGestureRecognizer *)gestureRecognizer {
     &lt;#code#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>

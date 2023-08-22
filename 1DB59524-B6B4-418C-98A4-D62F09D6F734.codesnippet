@@ -9,7 +9,8 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) NSMutableArray * array&lt;#name#&gt;;/**&lt;  &lt;#属性注释#&gt; */</string>
+	<string>/// &lt;#属性注释#&gt;
+@property (nonatomic, strong) NSMutableArray * array&lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>1DB59524-B6B4-418C-98A4-D62F09D6F734</string>
 	<key>IDECodeSnippetLanguage</key>

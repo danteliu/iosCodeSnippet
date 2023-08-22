@@ -9,7 +9,8 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, readonly, copy) &lt;#void#&gt; (^&lt;#Name#&gt;)(NSDictionary *res);/**&lt;  &lt;#参数说明#&gt; */</string>
+	<string>/// &lt;#参数说明#&gt; (链式调用)
+@property (nonatomic, readonly, copy) &lt;#void#&gt; (^&lt;#Name#&gt;)(NSDictionary *res);</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>D15C3766-4AD6-4262-895B-BF58CA4A368E</string>
 	<key>IDECodeSnippetLanguage</key>

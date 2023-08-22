@@ -9,7 +9,8 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) UICollectionViewFlowLayout *layout;/**&lt;  &lt;#属性注释#&gt; */</string>
+	<string>/// &lt;#属性注释#&gt;
+@property (nonatomic, strong) UICollectionViewFlowLayout *layout;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>C8BD602F-FD38-4B08-BDCB-BA3C9C6C0417</string>
 	<key>IDECodeSnippetLanguage</key>

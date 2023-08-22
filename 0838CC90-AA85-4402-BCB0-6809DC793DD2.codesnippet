@@ -9,7 +9,8 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, assign) CGFloat float&lt;#name#&gt;;/**&lt;  &lt;#属性注释#&gt; */</string>
+	<string>/// &lt;#属性注释#&gt;
+@property (nonatomic, assign) CGFloat float&lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>0838CC90-AA85-4402-BCB0-6809DC793DD2</string>
 	<key>IDECodeSnippetLanguage</key>

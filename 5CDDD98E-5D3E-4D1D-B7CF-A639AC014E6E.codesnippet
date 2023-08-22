@@ -9,7 +9,8 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, assign) BOOL is&lt;#name#&gt;;/**&lt;  &lt;#属性注释#&gt; */
+	<string>/// &lt;#属性注释#&gt;
+@property (nonatomic, assign) BOOL is&lt;#name#&gt;;
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>5CDDD98E-5D3E-4D1D-B7CF-A639AC014E6E</string>
