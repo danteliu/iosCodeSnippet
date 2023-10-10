@@ -3,24 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>duicolor01</string>
+	<string>duicolor04</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[UIColor colorWithRed:(arc4random() % 256) / 255.0
-                green:(arc4random() % 256) / 255.0
-                 blue:(arc4random() % 256) / 255.0
-                alpha:1]</string>
+	<string>&lt;#view#&gt;.backgroundColor = [UIColor colorWithRed:(arc4random() % 256) / 255.0 green:(arc4random() % 256) / 255.0 blue:(arc4random() % 256) / 255.0 alpha:1];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>BAE52E26-E794-4DA2-AA62-81C56C356D77</string>
+	<string>B38698E2-9CDC-4A99-A657-785C9163F6F3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>给view添加随机颜色</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>01 颜色随机(系统)</string>
+	<string>04 view random color</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
