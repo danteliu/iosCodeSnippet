@@ -9,10 +9,10 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/// &lt;#注释#&gt;
-extern NSString * _Nonnull const &lt;#name#&gt;;/**&lt; &lt;#注释#&gt; */
+	<string>extern NSString *_Nonnull const &lt;#name#&gt;;///&lt; &lt;#注释#&gt;
 
-NSString * const &lt;#name#&gt;=@"&lt;#name#&gt;";</string>
+NSString *const &lt;#name#&gt; = @"&lt;#name#&gt;";
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>CF609CEF-0EFE-450B-8191-465A911655EA</string>
 	<key>IDECodeSnippetLanguage</key>

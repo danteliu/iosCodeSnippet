@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[&lt;#str1#&gt; isEqualToString:&lt;#@""#&gt;]</string>
+	<string>[&lt;#str1#&gt; isEqualToString: &lt;#@""#&gt;]</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E106B07E-D66F-4217-AA40-79DF1E9A1CCE</string>
 	<key>IDECodeSnippetLanguage</key>

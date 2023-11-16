@@ -3,21 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dnsstring02</string>
+	<string>dfor03</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[NSString stringWithFormat:@"%@", &lt;#string#&gt;]</string>
+	<string>NSMutableArray *tempArrays = [[NSMutableArray alloc] init];
+
+for (NSInteger i = 0; i &lt; &lt;#10#&gt;; i++) {
+    NSString *str = [NSString stringWithFormat:@"%ld", i];
+    [tempArrays addObject:str];
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>38671A0A-2F67-44FA-A019-A3BA60798905</string>
+	<string>E004FD0F-3F37-4668-8765-653202ECF4EA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>添加 index Demo</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>02 字符串 拼接</string>
+	<string>03 for index demo</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

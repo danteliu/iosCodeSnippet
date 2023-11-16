@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dnsstring02</string>
+	<string>dNSDictionary04</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[NSString stringWithFormat:@"%@", &lt;#string#&gt;]</string>
+	<string>NSMutableDictionary *&lt;#name#&gt;DictM = [[NSMutableDictionary alloc] initWithDictionary:@{}];
+[dictM setObject:@"" forKey:@""];
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>38671A0A-2F67-44FA-A019-A3BA60798905</string>
+	<string>4F583C92-91DF-4616-A0FB-150D9670CA6C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>创建可变字典的demo</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>02 字符串 拼接</string>
+	<string>04 NSDictionary 可变字典 demo</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
