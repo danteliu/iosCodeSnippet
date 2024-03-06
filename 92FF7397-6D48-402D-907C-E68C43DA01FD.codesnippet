@@ -10,7 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>/// &lt;#属性注释#&gt;
-@property (nonatomic, copy) NSString * string&lt;#name#&gt;;</string>
+@property (nonatomic, copy) NSString *string&lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>92FF7397-6D48-402D-907C-E68C43DA01FD</string>
 	<key>IDECodeSnippetLanguage</key>
