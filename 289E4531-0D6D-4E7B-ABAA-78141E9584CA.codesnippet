@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[NSNumber numberWithBool:&lt;#YES#&gt;];</string>
+	<string>[NSNumber numberWithBool:&lt;#YES#&gt;]</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>289E4531-0D6D-4E7B-ABAA-78141E9584CA</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -21,6 +21,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
