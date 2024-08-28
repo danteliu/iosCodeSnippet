@@ -3,30 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lmasoa01</string>
+	<string>lmasinsets03</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSMutableArray *views = [NSMutableArray new];
-[views addObject:&lt;#obj#&gt;];
-[views enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-
-}];
-[views mas_distributeViewsAlongAxis:(MASAxisType&lt;#H or V#&gt;) withFixedSpacing:0 leadSpacing:0 tailSpacing:0];
-[views mas_makeConstraints:^(MASConstraintMaker *make) {
-    
-}];
-</string>
+	<string>make.left.right.insets(UIEdgeInsetsMake(0, 0, 0, 0));</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3157F369-94F4-48A0-838A-47A4DDE3344D</string>
+	<string>FF9CC138-7C8C-4A89-A62C-4CD74C9E017B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>01 根据数组批量创建视图</string>
+	<string>03 左右 insets</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

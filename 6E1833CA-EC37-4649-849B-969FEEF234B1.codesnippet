@@ -9,24 +9,31 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)encodeWithCoder:(NSCoder *)coder {/**&lt;  归档 */
+	<string>/// 归档
+/// - Parameter coder: &lt;#coder description#&gt;
+- (void)encodeWithCoder:(NSCoder *)coder {
     unsigned int count = 0;
-    Ivar *ivars = class_copyIvarList([self class], &amp;count);//计算属性个数
+    //计算属性个数
+    Ivar *ivars = class_copyIvarList([self class], &amp;count);
 
     for (NSInteger i = 0; i &lt; count; i++) {
         Ivar ivar = ivars[i];
-        const char *name = ivar_getName(ivar);//获得属性名字
+        //获得属性名字
+        const char *name = ivar_getName(ivar);
         NSString *key = [NSString stringWithUTF8String:name];
 
         if ([self valueForKey:key] != nil) {
-            [coder encodeObject:[self valueForKey:key] forKey:key];//kvc获得对象
+            //kvc获得对象
+            [coder encodeObject:[self valueForKey:key] forKey:key];
         }
     }
 
     free(ivars);
 }
 
-- (instancetype)initWithCoder:(NSCoder *)coder {/**&lt;  解档 */
+/// 解档
+/// - Parameter coder: &lt;#coder description#&gt;
+- (instancetype)initWithCoder:(NSCoder *)coder {
     self = [super init];
 
     if (self) {
@@ -39,8 +46,10 @@
             NSString *key = [NSString stringWithUTF8String:name];
 
             if ([coder containsValueForKey:key]) {
-                id value = [coder decodeObjectForKey:key];//通过解档获得属性值
-                [self setValue:value forKey:key];//设置到成员变量身上
+                //通过解档获得属性值
+                id value = [coder decodeObjectForKey:key];
+                //设置到成员变量身上
+                [self setValue:value forKey:key];
             }
         }
 
@@ -54,27 +63,34 @@
     id objCopy = [[[self class] allocWithZone:zone] init];
 
     unsigned int propertyCount = 0;
-    objc_property_t *propertyArray = class_copyPropertyList([self class], &amp;propertyCount);// 1.获取属性列表
+    // 1.获取属性列表
+    objc_property_t *propertyArray = class_copyPropertyList([self class], &amp;propertyCount);
 
     for (int i = 0; i &lt; propertyCount; i++) {
         objc_property_t property = propertyArray[i];
-        const char *propertyName = property_getName(property);// 2.属性名字
+        // 2.属性名字
+        const char *propertyName = property_getName(property);
         NSString *key = [NSString stringWithUTF8String:propertyName];
 
         if ([self valueForKey:key] != nil) {
-            id value = [self valueForKey:key];// 3.通过属性名拿到属性值(kvc)
+            // 3.通过属性名拿到属性值(kvc)
+            id value = [self valueForKey:key];
 
-            if ([value respondsToSelector:@selector(copyWithZone:)]) {// 4.判断 值对象是否响应copyWithZone
-                [objCopy setValue:[value copy] forKey:key];//5. 设置属性值
+            // 4.判断 值对象是否响应copyWithZone
+            if ([value respondsToSelector:@selector(copyWithZone:)]) {
+                //5. 设置属性值
+                [objCopy setValue:[value copy] forKey:key];
             } else {
                 [objCopy setValue:value forKey:key];
             }
         }
     }
 
-    free(propertyArray);//6.手动释放
+    //6.手动释放
+    free(propertyArray);
     return objCopy;
-}</string>
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>6E1833CA-EC37-4649-849B-969FEEF234B1</string>
 	<key>IDECodeSnippetLanguage</key>
