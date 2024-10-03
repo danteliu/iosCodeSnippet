@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[&lt;#array#&gt; addObject: &lt;#obj#&gt;];</string>
+	<string>[&lt;#self#&gt; addObject: &lt;#self#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>88372B82-B307-4991-9D9B-515F05CCB924</string>
 	<key>IDECodeSnippetLanguage</key>

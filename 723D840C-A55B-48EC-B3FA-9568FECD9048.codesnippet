@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[&lt;#view#&gt; addGestureRecognizer:&lt;#Ges#&gt;];</string>
+	<string>[&lt;#self#&gt; addGestureRecognizer:&lt;#Ges#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>723D840C-A55B-48EC-B3FA-9568FECD9048</string>
 	<key>IDECodeSnippetLanguage</key>

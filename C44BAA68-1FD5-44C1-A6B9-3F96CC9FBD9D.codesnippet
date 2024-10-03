@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[&lt;#dict#&gt; setValue:&lt;#value#&gt; forKey:&lt;#key#&gt;];</string>
+	<string>[&lt;#self#&gt; setValue:&lt;#self#&gt; forKey:&lt;#key#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>C44BAA68-1FD5-44C1-A6B9-3F96CC9FBD9D</string>
 	<key>IDECodeSnippetLanguage</key>

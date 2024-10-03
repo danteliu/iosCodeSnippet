@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[&lt;#supview#&gt; addSubview:&lt;#view#&gt;];</string>
+	<string>[&lt;#self#&gt; addSubview:&lt;#self#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>16094CDB-C906-415F-85AF-2FDA34A09BBF</string>
 	<key>IDECodeSnippetLanguage</key>
