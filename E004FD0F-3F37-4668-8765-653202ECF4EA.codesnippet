@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dfor03</string>
+	<string>ddemofor02</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -23,7 +23,7 @@ for (NSInteger i = 0; i &lt; &lt;#10#&gt;; i++) {
 	<key>IDECodeSnippetSummary</key>
 	<string>添加 index Demo</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>03 for index demo</string>
+	<string>02 for index demo</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

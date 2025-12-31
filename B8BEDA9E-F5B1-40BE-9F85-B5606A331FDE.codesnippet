@@ -9,9 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (instancetype)init;
-
-- (instancetype)init {
+	<string>- (instancetype)init {
     if (self = [super init]) {
         [self setupUI];
     }

@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>typedef void (^&lt;#name#&gt;)(void);
+	<string>typedef void (^ &lt;#name#&gt;)(void);
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>BC7EB5C0-0730-46F6-A87A-87655AFEF11F</string>
